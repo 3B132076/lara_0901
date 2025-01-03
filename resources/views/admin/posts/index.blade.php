@@ -33,7 +33,7 @@
                 <td>{{ ($post->is_feature)? 'v' : 'x' }}</td>
                 <td>
                     <a class="btn btn-primary btn-sm" href="{{ route('admin.posts.edit', $post->id) }}">編輯</a>
-                    <a class="btn btn-primary btn-sm" href="#">刪除</a>
+                    <a class="btn btn-sm btn-primary" href="#">刪除</a>
                 </td>
             </tr>
         @endforeach
